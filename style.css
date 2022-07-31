@@ -1,0 +1,111 @@
+/* * {
+    border: 0;
+    padding: 0;
+} */
+
+.top-container {
+    display: flex;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.top-container h1 {
+    color: blue;
+    padding: 0 10px;
+}
+
+.top-container h2 {
+    font-size: 32px;
+    color: rgb(218, 23, 218);
+    padding: 0 10px;
+}
+
+.top-container img {
+    border-radius: 1000px;
+}
+
+.top-container p {
+    font-size: 28px;
+    padding: 0 10px;
+}
+
+.middle-container {
+    background-color: rgb(186, 127, 241);
+    color: rgb(58, 3, 109);
+    padding: 20px;
+}
+
+.middle-container h2 {
+    font-size: 30px;
+}
+
+.middle-container p {
+    font-size: 28px;
+    color: #fff;
+}
+
+.middle-container img {
+    border-radius: 1000px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: 700;
+}
+
+.bottom-container {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.bottom-container h3:nth-child(1) {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: blue;
+    padding-top: 20px;
+}
+
+.bottom-container h3:nth-child(2) {
+    font-size: 28px;
+    color: blue;
+
+}
+
+form {
+    padding: 0 40px;
+}
+fieldset {
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+} 
